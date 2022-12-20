@@ -26,7 +26,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facad", "Facad", "{DA82F063
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{F52FD476-E156-4620-8054-2E18D3184098}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade_Asp.Net.Core", "Facade\Facade_Asp.Net.Core\Facade_Asp.Net.Core.csproj", "{18158C79-AEDB-4587-9105-D2F4F48214A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade_In_Asp.Net_Core", "Facade\Facade_Asp.Net.Core\Facade_In_Asp.Net_Core.csproj", "{18158C79-AEDB-4587-9105-D2F4F48214A9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Facade\Application\Application.csproj", "{6026D29F-978F-47D8-81AA-C3D149464199}"
 EndProject
