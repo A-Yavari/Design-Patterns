@@ -1,20 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Application.FacadePattern;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Facade_Asp.Net.Core.Pages
+namespace Facade_Asp.Net.Core.Pages;
+
+public class IndexModel : PageModel
 {
-    public class IndexModel : PageModel
+    private readonly IFacadeService _facadeService;
+    public IndexModel(IFacadeService facadeService)
     {
-        private readonly ILogger<IndexModel> _logger;
+        _facadeService = facadeService;
+    }
 
-        public IndexModel(ILogger<IndexModel> logger)
-        {
-            _logger = logger;
-        }
-
-        public void OnGet()
-        {
-
-        }
+    public void OnGet()
+    {
+        _facadeService.RegisterUserService.Execute();
+        _facadeService.LoginUserService.Execute();
     }
 }
