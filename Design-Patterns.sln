@@ -3,9 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{6342AFCE-599F-493C-8BA4-E6C276139D15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "All-UML", "All-UML", "{66DC0CD9-395B-4562-B594-95A7A99FB0DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ClassAdapter", "Adapter\DesignPatterns.ClassAdapter\DesignPatterns.ClassAdapter.csproj", "{6416551E-D8B4-496A-A328-F80D4BCA3CE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectAdapter", "Adapter\DesignPatterns.ObjectAdapter\DesignPatterns.ObjectAdapter.csproj", "{989BDB1A-D41C-472B-8D61-52B642931020}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{D535AC29-B240-4C7A-AF26-95315B77114E}"
+	ProjectSection(SolutionItems) = preProject
+		All-UML\Adapter\ClassAdapter.jpg = All-UML\Adapter\ClassAdapter.jpg
+		All-UML\Adapter\ObjectAdapter.jpg = All-UML\Adapter\ObjectAdapter.jpg
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6416551E-D8B4-496A-A328-F80D4BCA3CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6416551E-D8B4-496A-A328-F80D4BCA3CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6416551E-D8B4-496A-A328-F80D4BCA3CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6416551E-D8B4-496A-A328-F80D4BCA3CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989BDB1A-D41C-472B-8D61-52B642931020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989BDB1A-D41C-472B-8D61-52B642931020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989BDB1A-D41C-472B-8D61-52B642931020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989BDB1A-D41C-472B-8D61-52B642931020}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6416551E-D8B4-496A-A328-F80D4BCA3CE0} = {6342AFCE-599F-493C-8BA4-E6C276139D15}
+		{989BDB1A-D41C-472B-8D61-52B642931020} = {6342AFCE-599F-493C-8BA4-E6C276139D15}
+		{D535AC29-B240-4C7A-AF26-95315B77114E} = {66DC0CD9-395B-4562-B594-95A7A99FB0DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F556A66-C613-4111-9396-1AB7A0898932}
